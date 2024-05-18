@@ -1,5 +1,22 @@
+//print statement and basic numbers
 int num=5;
 system.out.print(num);
 int secondNum=10;
-int thirdNum= num*2 +secondNum;
+int thirdNum= num*2 + secondNum;
 system.out.print(thirdNum);
+
+//datatypes 
+byte bytenum=127;
+short shortnum=32_000;
+int intnum=2_100_000_000;
+long longnum=9_000_000_000_000_000_000L;
+
+//diclaring multiple variables in a single line
+int inum =100,iinum=10000;
+short snum=2674; byte bnum=2;
+
+//casting
+int castingNum= (int)((snum+22)*bnum);
+system.out.print(castingNum);
+
+
