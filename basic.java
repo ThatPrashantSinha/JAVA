@@ -10,6 +10,10 @@ byte bytenum=127;
 short shortnum=32_000;
 int intnum=2_100_000_000;
 long longnum=9_000_000_000_000_000_000L;
+float floatnum= 69.69f;
+double doublenum= 69.6969;
+char charnum='d';
+boolean booleannum= false;
 
 //diclaring multiple variables in a single line
 int inum =100,iinum=10000;
