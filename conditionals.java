@@ -14,11 +14,16 @@ public class conditionals {
         // or operator ||
         if (noOfApples==20 || noOfApples<100){
             System.out.print("not enough apples"+ "\n");
+        }else if(noOfApples==100) {
+            System.out.println("i have 100 apples"+ "\n");
+        }else {
+            System.out.println("i dont have any apples or i have more than a 100 apples"+ "\n");
         }
         // ternry operator ?:
         boolean isAlive=true;
         boolean mortalityStatus = (isAlive!=false)? true:false;
         System.out.print(mortalityStatus);
+
      }
     
 }
