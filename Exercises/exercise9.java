@@ -1,3 +1,4 @@
+package Exercises;
 public class exercise9 {
     public static double area(double radius) {
         if (radius<0){

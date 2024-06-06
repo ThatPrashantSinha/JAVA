@@ -1,3 +1,4 @@
+package Exercises;
 public class exercise11 {
     public static void printEqual(int numOne,int numTwo,int numThree) {
         if(numOne<0||numTwo<0||numThree<0){

@@ -1,3 +1,4 @@
+package Practice;
 public class challenge4 {
     public static double connvertToCentimeters(int inches) {
         return (double)(inches*2.54);

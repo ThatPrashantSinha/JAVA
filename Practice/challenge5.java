@@ -1,3 +1,4 @@
+package Practice;
 public class challenge5 {
     public static void getDurationString(int seconds) {
         int zz =0;

@@ -1,3 +1,4 @@
+package Practice;
 public class challenge3 {
 
     public static void displayHighScorePosition(String playerName, int playerPostion) {

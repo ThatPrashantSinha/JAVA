@@ -1,3 +1,4 @@
+package Exercises;
 public class exercise6 {
     public static boolean areEqualByThreeDecimalPlaces(double numOne,double numTwo) {
         int lnumOne=(int)(numOne*1000);

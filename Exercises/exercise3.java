@@ -1,3 +1,4 @@
+package Exercises;
 public class exercise3 {
     public static void printMegaBytesAndKiloBytes(int kiloBytes) {
         int mB=0;

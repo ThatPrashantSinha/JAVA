@@ -1,3 +1,4 @@
+package Exercises;
 public class exercise5 {
     public static boolean isLeapYear(int year) {
         if(year<1 || year>9999){

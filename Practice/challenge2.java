@@ -1,3 +1,4 @@
+package Practice;
 public class challenge2 {
 
     public static void main(String[] args) {

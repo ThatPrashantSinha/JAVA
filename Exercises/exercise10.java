@@ -1,3 +1,4 @@
+package Exercises;
 public class exercise10 {
     public static void printYearsAndDays(long minutes) {
         if(minutes<0){

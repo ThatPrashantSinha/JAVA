@@ -1,3 +1,4 @@
+package Exercises;
 public class exercise8 {
     public static boolean hasTeen(int numOne,int numTwo,int numThree) {
         if((numOne>=13&&numOne<=19)||(numTwo>=13&&numTwo<=19)||(numThree>=13&&numThree<=19)){
