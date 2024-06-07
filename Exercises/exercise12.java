@@ -13,3 +13,5 @@ public class exercise12 {
         System.out.println(isCatPlaying(true, 30));
     }
 }
+
+

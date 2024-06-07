@@ -16,6 +16,8 @@ public class methods {
     public static void calculateSavingsFaster(int salary,int rent,int expenses,int daru){
          System.out.println(salary-(rent+expenses+daru));
     }
+    //method overloading...(creating multiple methods with same name...which accept diff parameters)
+    
 
 
 }
