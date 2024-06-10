@@ -1,4 +1,5 @@
 public class flowcontrol {
+    //switch case
     public static void NATOalpha(char alpha) {
         switch (alpha) {
             case 'A':
@@ -21,6 +22,7 @@ public class flowcontrol {
                 break;
         }
     }
+    //modern version of Switch case
     public static void printNumberInWord(int number) {
         switch (number) {
             case 0-> System.out.println("ZERO");
@@ -36,9 +38,17 @@ public class flowcontrol {
             default -> System.out.println("OTHER");
         }
     }
+    //for loop....
+    public static void calcinterst(double rate,double amount) {
+        for(rate=7.5;rate<=10;rate+=0.25){
+             System.out.println(rate);;
+
+        }
+    }
     public static void main(String[] args) {
         NATOalpha('B');
         printNumberInWord(1);
+        calcinterst(7.25, 100);
     }
 
 }

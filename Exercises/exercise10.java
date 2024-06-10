@@ -15,3 +15,4 @@ public class exercise10 {
         printYearsAndDays(561600);
     }
 }
+
