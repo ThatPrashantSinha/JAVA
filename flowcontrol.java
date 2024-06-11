@@ -45,6 +45,7 @@ public class flowcontrol {
 
         }
     }
+    
     public static void main(String[] args) {
         NATOalpha('B');
         printNumberInWord(1);
