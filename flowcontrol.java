@@ -45,11 +45,36 @@ public class flowcontrol {
 
         }
     }
+    //while loop....
+    public static boolean isPalindrome(int number) {
+        int reverse =0;
+        int num=number;
+        while (true) {
+            reverse+=(number%10);
+            number/=10;
+            if(number!=0){
+                reverse*=10;
+            }else if(number==0){
+                break;
+            }
+        }
+        if(reverse==num){
+            return true;
+        }else{
+            return false;
+        }
+    }
+    // do while loop...
+    do{
+        System.out.println("apple");
+        int i=10;
+    }while(i<5);
     
     public static void main(String[] args) {
         NATOalpha('B');
         printNumberInWord(1);
         calcinterst(7.25, 100);
+        System.out.println(isPalindrome(1221));
     }
 
 }
