@@ -64,13 +64,16 @@ public class flowcontrol {
             return false;
         }
     }
+    
     // do while loop...
+    public static void main(String[] args) {
+    int appl=10;
     do{
         System.out.println("apple");
-        int i=10;
-    }while(i<5);
-    
-    public static void main(String[] args) {
+    }while(appl<5);
+    }
+    // calling functions
+    public static void main2(String[] args) {
         NATOalpha('B');
         printNumberInWord(1);
         calcinterst(7.25, 100);
