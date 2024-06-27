@@ -21,7 +21,7 @@ public class Person {
         this.lastName=lastName;
     }
     public void setAge(int age){
-        if(this.age<0||this.age>100){
+        if(age<0||age>100){
             age =0;
         }else{
             this.age=age;
@@ -32,7 +32,7 @@ public class Person {
         return false;
     }
     public String getFullName(){
-        return firstName+" "+lastName;
+        return firstName+lastName;
     }
 
 }
