@@ -10,14 +10,13 @@ public class Worker {
         this.birthDate=birthDate;
         this.endDate=endDate;
     }
-
     public int getAge(){
         return 2024-Integer.parseInt(birthDate);
     }
     public double collectPay(){
         return 0.0;
     }
-    public String terminate(String endDate){
+    public String terminate(String endDate2){
         return endDate;
     }
 
