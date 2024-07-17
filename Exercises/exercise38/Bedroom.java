@@ -7,7 +7,7 @@ public class Bedroom {
     private Wall wall3;
     private Wall wall4; 
     private Ceiling ceiling;
-    private Bed bed;
+    private  Bed bed;
     private Lamp lamp;
 
     public Bedroom(String name,Wall wall1,Wall wall2,Wall wall3,Wall wall4,Ceiling ceiling,Bed bed,Lamp lamp){

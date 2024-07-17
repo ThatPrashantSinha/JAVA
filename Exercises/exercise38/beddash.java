@@ -1,6 +1,6 @@
 package Exercises.exercise38;
 
-public class bedroomdash {
+public class beddash {
     public static void main(String[] args) {
         Wall wall1 = new Wall("West");
         Wall wall2 = new Wall("East");
