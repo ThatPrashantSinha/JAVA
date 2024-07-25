@@ -12,24 +12,22 @@ public class Printer {
     public int getPagesPrinted(){
         return pagesPrinted;
     }
-    public int addToner(){
-        this.tonerLevel=100;
-        return tonerLevel;
-    }
     public int addToner(int tonerLevel){
-        this.tonerLevel=tonerLevel<0?-1:tonerLevel>100?-1:tonerLevel;
-        return tonerLevel;
+        if(tonerLevel<0||tonerLevel>100){
+            this.tonerLevel=-1;
+            return tonerLevel;
+        }
+        return this.tonerLevel+=tonerLevel;
     }
     public int printPages(int pages){
         int page=pages;
         if(duplex==true){
-            System.out.println("its a Duplex print!");
+            System.out.println("Printing in duplex mode");
             while (page>0||tonerLevel>0) {
                 pagesPrinted+=1;
                 tonerLevel-=2;
                 page-=2;
                 if(page<=0){
-                    System.out.println("printing finished");
                     return getPagesPrinted();
                 }else if (tonerLevel==0) {
                     System.out.println("printing stopped no toner left");
