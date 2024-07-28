@@ -1,20 +1,20 @@
 package Exercises.exercise39;
 
-public class Mitsubashi extends Car{
-    public Mitsubashi(int cylinders,String name){
+public class Mitsubishi extends Car{
+    public Mitsubishi(int cylinders,String name){
         super(cylinders,name);
     }
     @Override
     public String startEngine(){
-        return "Mitsubashi -> startEngine()";
+        return "Mitsubishi -> startEngine()";
     }
     @Override
     public String accelerate(){
-        return "Mitsubashi -> accelerate()";
+        return "Mitsubishi -> accelerate()";
     }
     @Override
     public String brake(){
-        return "Mitsubashi -> brake()";
+        return "Mitsubishi -> brake()";
     }
 
 }

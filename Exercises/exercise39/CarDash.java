@@ -7,7 +7,7 @@ public class CarDash{
         System.out.println(car.accelerate());
         System.out.println(car.brake());
         
-        Mitsubashi mitsubishi = new Mitsubashi(6, "Outlander VRX 4WD");
+        Mitsubishi mitsubishi = new Mitsubishi(6, "Outlander VRX 4WD");
         System.out.println(mitsubishi.startEngine());
         System.out.println(mitsubishi.accelerate());
         System.out.println(mitsubishi.brake());
