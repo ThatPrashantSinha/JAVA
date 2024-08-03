@@ -65,10 +65,10 @@ public class MealDash {
             }else if((burgerType.charAt(0)=='r'||burgerType.charAt(0)=='R')||
             ((burgerType.charAt(0)=='d'||burgerType.charAt(0)=='D')&&
             (burgerType.charAt(7)=='t'||burgerType.charAt(7)=='T'))){
-                burgerPrice+=8.49;
-                burgerPrice+=2.99;
-                burgerPrice+=2.49;
-                exception++;
+                    burgerPrice+=8.49;
+                    burgerPrice+=2.99;
+                    burgerPrice+=2.49;
+                    exception++;
             }else{
                 System.out.println("***invalid input***");
                 System.out.println("------------------------------------------------------------------------------------------------------");
