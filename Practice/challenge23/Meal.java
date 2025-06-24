@@ -1,3 +1,5 @@
+package Practice.challenge23;
+
 public class Meal {
     private Hamburger burger;
     private Sides sides;

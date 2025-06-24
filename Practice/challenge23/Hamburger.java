@@ -1,3 +1,5 @@
+package Practice.challenge23;
+
 public class Hamburger {
     private String type;
     private String topping1;

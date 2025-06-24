@@ -1,3 +1,5 @@
+package Practice.challenge23;
+
 public class Drink {
     private String type;
     private String size;

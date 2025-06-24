@@ -1,3 +1,5 @@
+package Practice.challenge23;
+
 public class Sides {
     private String type;
     private double price;
