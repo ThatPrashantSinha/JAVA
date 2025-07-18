@@ -1,3 +1,5 @@
+package Practice.challenge25;
+
 public abstract class ProductForSale {
     protected String type;
     protected double price;

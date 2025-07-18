@@ -1,3 +1,4 @@
+package Practice;
 public class flowcontrol {
     //switch case
     public static void NATOalpha(char alpha) {

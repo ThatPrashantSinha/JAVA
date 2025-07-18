@@ -1,3 +1,5 @@
+package Practice.challenge25;
+
 public class Book extends ProductForSale{
     private String bookName;
 

@@ -1,3 +1,5 @@
+package Practice.challenge25;
+
 public class Toy extends ProductForSale{
     private String toyName;
 
